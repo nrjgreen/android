@@ -1,0 +1,6 @@
+package nl.nrjhub.companion.android.onboarding
+
+class WearOnboardingListener {
+    // No op
+
+}
