@@ -8,7 +8,7 @@
         <receiver android:name=".sensors.SensorUpdateReceiver"
             android:exported="true">
             <intent-filter>
-                <action android:name="io.homeassistant.companion.android.UPDATE_SENSORS" />
+                <action android:name="nl.nrjhub.companion.android.UPDATE_SENSORS" />
             </intent-filter>
         </receiver>
 

@@ -14,7 +14,7 @@
         android:title="@string/device_registration">
         <EditTextPreference
             android:key="server_name"
-            android:icon="@drawable/ic_stat_ic_notification_blue"
+            android:icon="@mipmap/logo_nrjhub"
             android:title="@string/server_name"/>
         <EditTextPreference
             android:key="registration_name"

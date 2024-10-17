@@ -11,7 +11,7 @@ plugins {
 }
 
 android {
-    namespace = "io.homeassistant.companion.android"
+    namespace = "nl.nrjhub.companion.android"
 
     compileSdk = libs.versions.androidSdk.compile.get().toInt()
 
@@ -20,7 +20,7 @@ android {
     useLibrary("android.car")
 
     defaultConfig {
-        applicationId = "io.homeassistant.companion.android"
+        applicationId = "nl.nrjhub.companion.android"
         minSdk = libs.versions.androidSdk.min.get().toInt()
         targetSdk = libs.versions.androidSdk.target.get().toInt()
 

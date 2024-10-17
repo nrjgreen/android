@@ -13,7 +13,7 @@ val versionName = project.version.toString()
 val versionCode = System.getenv("VERSION_CODE")?.toIntOrNull() ?: 1
 
 android {
-    namespace = "io.homeassistant.companion.android.common"
+    namespace = "nl.nrjhub.companion.android.common"
 
     compileSdk = libs.versions.androidSdk.compile.get().toInt()
 

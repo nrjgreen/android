@@ -14,7 +14,7 @@
     </queries>
 
     <application
-        android:name="io.homeassistant.companion.android.HomeAssistantApplication" >
+        android:name="nl.nrjhub.companion.android.HomeAssistantApplication" >
         <meta-data android:name="io.sentry.auto-init" android:value="false" />
         <meta-data android:name="io.sentry.release" android:value="${sentryRelease}" />
         <meta-data android:name="io.sentry.dsn" android:value="${sentryDsn}" />
@@ -54,7 +54,7 @@
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/ic_stat_ic_notification" />
+            android:resource="@mipmap/logo_nrjhub" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorPrimary" />
