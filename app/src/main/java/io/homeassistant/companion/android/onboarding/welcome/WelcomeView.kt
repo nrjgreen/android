@@ -36,7 +36,7 @@ fun WelcomeView(
 ) {
     OnboardingScreen(Modifier.verticalScroll(rememberScrollState())) {
         Image(
-            painter = painterResource(id = R.drawable.app_icon_round),
+            painter = painterResource(id = R.drawable.logo_nrjhub),
             contentDescription = stringResource(
                 id = commonR.string.app_name
             ),
@@ -68,16 +68,18 @@ fun WelcomeView(
             }
             pop()
         }
-        val uriHandler = LocalUriHandler.current
-        ClickableText(
-            text = annotatedString,
-            onClick = {
-                annotatedString.getStringAnnotations("learn", it, it).firstOrNull()?.let { link ->
-                    uriHandler.openUri(link.item)
-                }
-            },
-            modifier = Modifier.padding(bottom = 16.dp)
-        )
+//        val uriHandler = LocalUriHandler.current
+//        ClickableText(
+//            text = annotatedString,
+//            onClick = {
+//                annotatedString.getStringAnnotations("learn", it, it).firstOrNull()?.let { link ->
+//                    uriHandler.openUri(link.item)
+//                }
+//            },
+//            modifier = Modifier
+//                .padding(bottom = 15.dp)
+//                .align(Alignment.CenterHorizontally)
+//        )
 
         Button(
             onClick = onContinue

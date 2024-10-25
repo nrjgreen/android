@@ -20,7 +20,7 @@ android {
     useLibrary("android.car")
 
     defaultConfig {
-        applicationId = "io.homeassistant.companion.android"
+        applicationId = "nl.nrjhub.companion.android"
         minSdk = libs.versions.androidSdk.automotive.min.get().toInt()
         targetSdk = libs.versions.androidSdk.target.get().toInt()
 
@@ -157,6 +157,7 @@ dependencies {
     implementation(libs.kotlin.reflect)
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
+    implementation(project(":app"))
     "fullImplementation"(libs.kotlinx.coroutines.play.services)
 
     implementation(libs.hilt.android)

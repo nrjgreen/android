@@ -914,7 +914,7 @@ abstract class AppDatabase : RoomDatabase() {
         private fun notifyMigrationFailed() {
             createNotificationChannel()
             val notification = NotificationCompat.Builder(appContext, CHANNEL_DATABASE)
-                .setSmallIcon(commonR.drawable.ic_stat_ic_notification)
+                .setSmallIcon(io.homeassistant.companion.android.common.R.mipmap.ic_launcher)
                 .setContentTitle(appContext.getString(commonR.string.database_migration_failed))
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .build()

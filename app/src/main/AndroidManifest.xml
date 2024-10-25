@@ -62,10 +62,10 @@
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_rules"
         android:dataExtractionRules="@xml/backup_rules_android12"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo_nrjhub"
         android:banner="@mipmap/ic_banner"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/logo_nrjhub_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeAssistant"
         android:networkSecurityConfig="@xml/network_security_config"
@@ -447,7 +447,7 @@
 
         <service
             android:name=".qs.Tile1Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_1"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
@@ -457,7 +457,7 @@
         </service>
         <service
             android:name=".qs.Tile2Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_2"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
@@ -467,7 +467,7 @@
         </service>
         <service
             android:name=".qs.Tile3Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_3"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
@@ -477,7 +477,7 @@
         </service>
         <service
             android:name=".qs.Tile4Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_4"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
@@ -487,7 +487,7 @@
         </service>
         <service
             android:name=".qs.Tile5Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_5"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
@@ -497,7 +497,7 @@
         </service>
         <service
             android:name=".qs.Tile6Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_6"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
@@ -507,7 +507,7 @@
         </service>
         <service
             android:name=".qs.Tile7Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_7"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
@@ -517,7 +517,7 @@
         </service>
         <service
             android:name=".qs.Tile8Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_8"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
@@ -527,7 +527,7 @@
         </service>
         <service
             android:name=".qs.Tile9Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_9"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
@@ -537,7 +537,7 @@
         </service>
         <service
             android:name=".qs.Tile10Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_10"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
@@ -547,7 +547,7 @@
         </service>
         <service
             android:name=".qs.Tile11Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_11"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
@@ -557,7 +557,7 @@
         </service>
         <service
             android:name=".qs.Tile12Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_12"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:exported="true">
@@ -567,7 +567,7 @@
         </service>
         <service
             android:name=".qs.Tile13Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_13"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -578,7 +578,7 @@
         </service>
         <service
             android:name=".qs.Tile14Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_14"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -589,7 +589,7 @@
         </service>
         <service
             android:name=".qs.Tile15Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_15"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -600,7 +600,7 @@
         </service>
         <service
             android:name=".qs.Tile16Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_16"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -611,7 +611,7 @@
         </service>
         <service
             android:name=".qs.Tile17Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_17"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -622,7 +622,7 @@
         </service>
         <service
             android:name=".qs.Tile18Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_18"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -633,7 +633,7 @@
         </service>
         <service
             android:name=".qs.Tile19Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_19"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -644,7 +644,7 @@
         </service>
         <service
             android:name=".qs.Tile20Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_20"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -655,7 +655,7 @@
         </service>
         <service
             android:name=".qs.Tile21Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_21"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -666,7 +666,7 @@
         </service>
         <service
             android:name=".qs.Tile22Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_22"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -677,7 +677,7 @@
         </service>
         <service
             android:name=".qs.Tile23Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_23"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -688,7 +688,7 @@
         </service>
         <service
             android:name=".qs.Tile24Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_24"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -699,7 +699,7 @@
         </service>
         <service
             android:name=".qs.Tile25Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_25"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -710,7 +710,7 @@
         </service>
         <service
             android:name=".qs.Tile26Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_26"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -721,7 +721,7 @@
         </service>
         <service
             android:name=".qs.Tile27Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_27"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -732,7 +732,7 @@
         </service>
         <service
             android:name=".qs.Tile28Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_28"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -743,7 +743,7 @@
         </service>
         <service
             android:name=".qs.Tile29Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_29"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -754,7 +754,7 @@
         </service>
         <service
             android:name=".qs.Tile30Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_30"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -765,7 +765,7 @@
         </service>
         <service
             android:name=".qs.Tile31Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_31"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -776,7 +776,7 @@
         </service>
         <service
             android:name=".qs.Tile32Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_32"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -787,7 +787,7 @@
         </service>
         <service
             android:name=".qs.Tile33Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_33"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -798,7 +798,7 @@
         </service>
         <service
             android:name=".qs.Tile34Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_34"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -809,7 +809,7 @@
         </service>
         <service
             android:name=".qs.Tile35Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_35"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -820,7 +820,7 @@
         </service>
         <service
             android:name=".qs.Tile36Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_36"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -831,7 +831,7 @@
         </service>
         <service
             android:name=".qs.Tile37Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_37"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -842,7 +842,7 @@
         </service>
         <service
             android:name=".qs.Tile38Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_38"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -853,7 +853,7 @@
         </service>
         <service
             android:name=".qs.Tile39Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_39"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"
@@ -864,7 +864,7 @@
         </service>
         <service
             android:name=".qs.Tile40Service"
-            android:icon="@drawable/ic_stat_ic_notification"
+            android:icon="@drawable/tile_logo"
             android:label="@string/tile_40"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:enabled="false"

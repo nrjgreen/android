@@ -77,7 +77,7 @@ class MonitoringManager {
         }
 
         val builder = NotificationCompat.Builder(context, CHANNEL_BEACON_MONITOR)
-        builder.setSmallIcon(R.drawable.ic_stat_ic_notification)
+        builder.setSmallIcon(io.homeassistant.companion.android.common.R.mipmap.ic_launcher)
         builder.setContentTitle(context.getString(R.string.beacon_scanning))
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(CHANNEL_BEACON_MONITOR, context.getString(R.string.beacon_scanning), NotificationManager.IMPORTANCE_LOW)

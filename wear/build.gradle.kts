@@ -13,7 +13,7 @@ android {
     compileSdk = libs.versions.androidSdk.compile.get().toInt()
 
     defaultConfig {
-        applicationId = "io.homeassistant.companion.android"
+        applicationId = "nl.nrjhub.companion.android"
         minSdk = libs.versions.androidSdk.wear.min.get().toInt()
         targetSdk = libs.versions.androidSdk.wear.target.get().toInt()
 

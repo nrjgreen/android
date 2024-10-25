@@ -1488,7 +1488,7 @@ class MessagingManager @Inject constructor(
                             PendingIntent.FLAG_IMMUTABLE
                         )
                         builder.addAction(
-                            commonR.drawable.ic_stat_ic_notification,
+                            io.homeassistant.companion.android.R.mipmap.logo_nrjhub_foreground,
                             notificationAction.title,
                             actionPendingIntent
                         )

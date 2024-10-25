@@ -85,7 +85,7 @@ object DataUriDownloadManager {
             }
 
             // URLUtil doesn't handle data URIs correctly, so we have to use a generic filename
-            var fileName = "Home Assistant ${SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()).format(Date())}"
+            var fileName = "NRJHub ${SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()).format(Date())}"
             MimeTypeMap.getSingleton().getExtensionFromMimeType(mimetype)?.let { extension ->
                 fileName += ".$extension"
             }

@@ -249,7 +249,7 @@ class WebsocketManager(
             PendingIntent.FLAG_IMMUTABLE
         )
         val notification = NotificationCompat.Builder(applicationContext, CHANNEL_WEBSOCKET)
-            .setSmallIcon(R.drawable.ic_stat_ic_notification)
+            .setSmallIcon(io.homeassistant.companion.android.R.mipmap.logo_nrjhub_foreground)
             .setContentTitle(applicationContext.getString(R.string.websocket_listening))
             .setContentIntent(pendingIntent)
             .setPriority(NotificationCompat.PRIORITY_LOW)
@@ -284,7 +284,7 @@ class WebsocketManager(
                 }
             }
             val restrictedNotification = NotificationCompat.Builder(applicationContext, CHANNEL_WEBSOCKET_ISSUES)
-                .setSmallIcon(R.drawable.ic_stat_ic_notification)
+                .setSmallIcon(io.homeassistant.companion.android.R.mipmap.logo_nrjhub_foreground)
                 .setContentTitle(applicationContext.getString(R.string.websocket_restricted_title))
                 .setContentText(applicationContext.getString(R.string.websocket_restricted_fix))
                 .setContentIntent(settingPendingIntent)

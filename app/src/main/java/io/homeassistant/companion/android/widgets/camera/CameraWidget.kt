@@ -131,7 +131,7 @@ class CameraWidget : AppWidgetProvider() {
                 if (entityPictureUrl == null) {
                     setImageViewResource(
                         R.id.widgetCameraImage,
-                        R.drawable.app_icon_round
+                        R.mipmap.logo_nrjhub_round
                     )
                     setViewVisibility(
                         R.id.widgetCameraPlaceholder,

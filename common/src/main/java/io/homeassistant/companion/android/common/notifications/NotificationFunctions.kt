@@ -222,10 +222,10 @@ fun handleSmallIcon(
         if (iconDrawable.icon != null) {
             builder.setSmallIcon(iconDrawable.colorFilter { PorterDuffColorFilter(Color.WHITE, PorterDuff.Mode.SRC_IN) }.toAndroidIconCompat())
         } else {
-            builder.setSmallIcon(R.drawable.ic_stat_ic_notification)
+            builder.setSmallIcon(io.homeassistant.companion.android.common.R.mipmap.ic_launcher)
         }
     } else {
-        builder.setSmallIcon(R.drawable.ic_stat_ic_notification)
+        builder.setSmallIcon(io.homeassistant.companion.android.common.R.mipmap.ic_launcher)
     }
 }
 

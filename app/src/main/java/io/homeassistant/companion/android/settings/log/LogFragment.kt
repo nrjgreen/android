@@ -168,7 +168,7 @@ class LogFragment : Fragment() {
                 // Recreate log dir
                 fLogFilePath.mkdir()
 
-                val filePathWithoutExt = path + "/homeassistant_companion_log_$month-$day-$year" + "_" + "$hour-$minute-$second"
+                val filePathWithoutExt = path + "/nrjhub_log_$month-$day-$year" + "_" + "$hour-$minute-$second"
                 val logFilePath = "$filePathWithoutExt.txt"
 
                 Log.i(TAG, "Create log file to: $logFilePath")

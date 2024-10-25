@@ -191,10 +191,10 @@
             android:key="docs"
             android:icon="@drawable/ic_question"
             android:title="@string/documentation"
-            android:summary="https://companion.home-assistant.io"
+            android:summary="https://duckduckgo.com/"
             app:enableCopying="true">
             <intent android:action="android.intent.action.VIEW"
-                android:data="https://companion.home-assistant.io" />
+                android:data="https://duckduckgo.com/" />
         </Preference>
         <Preference
             android:key="developer"
@@ -204,22 +204,22 @@
     </PreferenceCategory>
     <PreferenceCategory
         android:title="@string/app_version_info">
+<!--        <Preference-->
+<!--            android:key="changelog_prompt"-->
+<!--            android:icon="@drawable/ic_changelog"-->
+<!--            android:title="@string/show_changelog"-->
+<!--            android:summary="@string/show_changelog_summary" />-->
+<!--        <Preference-->
+<!--            android:key="changelog_github"-->
+<!--            android:title="@string/changelog"-->
+<!--            android:icon="@drawable/ic_github"-->
+<!--            android:summary="https://github.com/home-assistant/android/releases"-->
+<!--            app:enableCopying="true" />-->
         <Preference
-            android:key="changelog_prompt"
-            android:icon="@drawable/ic_changelog"
-            android:title="@string/show_changelog"
-            android:summary="@string/show_changelog_summary" />
-        <Preference
-            android:key="changelog_github"
-            android:title="@string/changelog"
-            android:icon="@drawable/ic_github"
-            android:summary="https://github.com/home-assistant/android/releases"
-            app:enableCopying="true" />
-        <Preference
-            android:key="version"
-            android:icon="@drawable/app_icon_round"
+            android:key="app_version"
+            android:icon="@drawable/logo_nrjhub"
             android:title="@string/application_version"
-            android:summary="1.0.0 (1)"/>
+            android:summary="1.0.0DEV"/>
         <Preference
             android:key="privacy"
             android:icon="@drawable/ic_incognito"

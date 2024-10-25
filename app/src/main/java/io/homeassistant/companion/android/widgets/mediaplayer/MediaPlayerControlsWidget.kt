@@ -252,7 +252,7 @@ class MediaPlayerControlsWidget : BaseWidgetProvider() {
                 if (entityPictureUrl == null) {
                     setImageViewResource(
                         R.id.widgetMediaImage,
-                        R.drawable.app_icon_round
+                        R.mipmap.logo_nrjhub_round
                     )
                     setViewVisibility(
                         R.id.widgetMediaPlaceholder,

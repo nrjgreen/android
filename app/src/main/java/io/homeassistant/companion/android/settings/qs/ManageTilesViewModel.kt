@@ -285,7 +285,7 @@ class ManageTilesViewModel @Inject constructor(
                 val icon = selectedIcon?.let {
                     val bitmap = IconicsDrawable(getApplication(), it).toBitmap()
                     Icon.createWithBitmap(bitmap)
-                } ?: Icon.createWithResource(app, commonR.drawable.ic_stat_ic_notification)
+                } ?: Icon.createWithResource(app, io.homeassistant.companion.android.R.mipmap.logo_nrjhub_foreground)
 
                 statusBarManager?.requestAddTileService(
                     ComponentName(app, service),

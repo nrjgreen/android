@@ -327,7 +327,7 @@ class SettingsFragment(
         }
 
         findPreference<Preference>("privacy")?.let {
-            it.summary = "https://www.home-assistant.io/privacy/"
+            it.summary = "https://duckduckgo.com/"
             it.intent = Intent(Intent.ACTION_VIEW, Uri.parse(it.summary.toString()))
         }
 
@@ -443,7 +443,7 @@ class SettingsFragment(
             serverPreference.key = serverKeys[index]
             serverPreference.order = index
             try {
-                serverPreference.icon = AppCompatResources.getDrawable(requireContext(), commonR.drawable.ic_stat_ic_notification_blue)
+                serverPreference.icon = AppCompatResources.getDrawable(requireContext(), R.mipmap.logo_nrjhub_foreground)
             } catch (e: Exception) {
                 Log.e(TAG, "Unable to set the server icon", e)
             }

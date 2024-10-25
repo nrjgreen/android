@@ -152,7 +152,7 @@ class ManageShortcutsViewModel @Inject constructor(
                     }.toBitmap()
                     Icon.createWithBitmap(bitmap)
                 } else {
-                    Icon.createWithResource(app, R.drawable.ic_stat_ic_notification_blue)
+                    Icon.createWithResource(app, io.homeassistant.companion.android.R.mipmap.logo_nrjhub)
                 }
             )
             .setIntent(intent)
