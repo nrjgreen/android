@@ -124,7 +124,7 @@ class HighAccuracyLocationService : Service() {
             val disablePendingIntent = PendingIntent.getBroadcast(context, 0, disableIntent, PendingIntent.FLAG_MUTABLE)
 
             notificationBuilder = NotificationCompat.Builder(context, CHANNEL_HIGH_ACCURACY)
-                .setSmallIcon(commonR.drawable.ic_stat_ic_notification)
+                .setSmallIcon(io.homeassistant.companion.android.R.mipmap.logo_nrjhub)
                 .setColor(Color.GRAY)
                 .setOngoing(true)
                 .setOnlyAlertOnce(true)

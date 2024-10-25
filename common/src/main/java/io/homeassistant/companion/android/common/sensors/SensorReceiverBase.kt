@@ -288,7 +288,7 @@ abstract class SensorReceiverBase : BroadcastReceiver() {
                                     val notificationId = "$CHANNEL_SENSOR_SYNC-${basicSensor.id}".hashCode()
                                     val notificationIntent = getSensorSettingsIntent(context, basicSensor.id, manager.id(), notificationId)
                                     val notification = NotificationCompat.Builder(context, CHANNEL_SENSOR_SYNC)
-                                        .setSmallIcon(R.drawable.ic_stat_ic_notification)
+                                        .setSmallIcon(io.homeassistant.companion.android.common.R.mipmap.ic_launcher)
                                         .setContentTitle(context.getString(basicSensor.name))
                                         .setContentText(context.getString(R.string.sensor_worker_sync_missing_permissions))
                                         .setContentIntent(notificationIntent)

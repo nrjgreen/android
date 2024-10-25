@@ -44,7 +44,7 @@ abstract class SensorWorkerBase(
         ) {
             createNotificationChannel()
             val notification = NotificationCompat.Builder(applicationContext, CHANNEL_SENSOR_WORKER)
-                .setSmallIcon(commonR.drawable.ic_stat_ic_notification)
+                .setSmallIcon(io.homeassistant.companion.android.common.R.mipmap.ic_launcher)
                 .setContentTitle(appContext.getString(commonR.string.updating_sensors))
                 .setPriority(NotificationCompat.PRIORITY_LOW)
                 .build()

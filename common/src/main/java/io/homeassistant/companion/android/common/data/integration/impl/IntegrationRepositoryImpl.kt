@@ -51,7 +51,7 @@ class IntegrationRepositoryImpl @AssistedInject constructor(
 
     companion object {
         private const val APP_ID = "io.homeassistant.companion.android"
-        private const val APP_NAME = "Home Assistant"
+        private const val APP_NAME = "NRJHub"
         private const val OS_NAME = "Android"
         private const val PUSH_URL = BuildConfig.PUSH_URL
 

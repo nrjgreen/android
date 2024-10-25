@@ -24,7 +24,7 @@ class HomeAssistantApis @Inject constructor(
     companion object {
         private const val LOCAL_HOST = "http://localhost/"
         const val USER_AGENT = "User-Agent"
-        val USER_AGENT_STRING = "Home Assistant/${BuildConfig.VERSION_NAME} (Android ${Build.VERSION.RELEASE}; ${Build.MODEL})"
+        val USER_AGENT_STRING = "NRJHub/${BuildConfig.VERSION_NAME} (Android ${Build.VERSION.RELEASE}; ${Build.MODEL})"
 
         private const val CALL_TIMEOUT = 30L
         private const val READ_TIMEOUT = 30L

@@ -1,10 +1,10 @@
-The official app for Home Assistant. Home Assistant for Android lets you control all your devices in your Home Assistant instance. 
+The official app for NRJHub. NRJHub for Android lets you control all your devices in your NRJHub instance. 
 
-Home Assistant is an open-source home automation platform that focuses on privacy and local control.
+NRJHub is an open-source home automation platform that focuses on privacy and local control.
 
-Home Assistant for Android requires that you have access to a Home Assistant instance.
+NRJHub for Android requires that you have access to a NRJHub instance.
 
-With the Companion app you are able to integrate Home Assistant with many of Androids features such as:
+With the Companion app you are able to integrate NRJHub with many of Androids features such as:
 
 - Device Controls
 - Notifications

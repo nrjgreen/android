@@ -12,10 +12,10 @@ If you are looking for documentation around the companion applications check out
 3. Create a Firebase project at [Firebase Console](https://console.firebase.google.com)
 
 4. Create four Android apps, with following package names 
- - `io.homeassistant.companion.android`
- - `io.homeassistant.companion.android.debug`
- - `io.homeassistant.companion.android.minimal`
- - `io.homeassistant.companion.android.minimal.debug`
+ - `nl.nrjhub.companion.android`
+ - `nl.nrjhub.companion.android.debug`
+ - `nl.nrjhub.companion.android.minimal`
+ - `nl.nrjhub.companion.android.minimal.debug`
 
 5. Now download the `google-services.json` file and put it in the project's _/app_, _/automotive_ and _/wear_ folders. This file contains the configuration of the whole project (all four applications). ([You can also use the mock services file instead of generating your own](/.github/mock-google-services.json). The file should contain client IDs for all packages listed above for debugging to work properly.  **If you do not generate your own file FCM push notification will never work, only websocket notifications will**)
 6. Start Android Studio, open your source code folder and check if the Gradle build will be successful using Build/Make Module "App". You might have to install the right Android SDK via Tools/SDK Manager first.
@@ -56,7 +56,7 @@ To build the app for publishing, you will need to sign the app. To do this, do t
 
 ## Testing Dev Releases
 
-We are using [Github Actions](https://github.com/home-assistant/android/actions) to perform continuous integration both by unit testing, deploying dev releases to [Play Store Beta](https://play.google.com/apps/testing/io.homeassistant.companion.android) and final releases to the [Play Store](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android) when we release. To help test out a specific feature/fixes users can find the APK on the Actions page for each pull request, this debug APK can be installed side-by-side the production or beta builds.
+We are using [Github Actions](https://github.com/home-assistant/android/actions) to perform continuous integration both by unit testing, deploying dev releases to [Play Store Beta](https://play.google.com/apps/testing/nl.nrjhub.companion.android) and final releases to the [Play Store](https://play.google.com/store/apps/details?id=nl.nrjhub.companion.android) when we release. To help test out a specific feature/fixes users can find the APK on the Actions page for each pull request, this debug APK can be installed side-by-side the production or beta builds.
 
 ## Quality
 

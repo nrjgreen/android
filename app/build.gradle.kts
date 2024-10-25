@@ -20,7 +20,7 @@ android {
     useLibrary("android.car")
 
     defaultConfig {
-        applicationId = "io.homeassistant.companion.android"
+        applicationId = "nl.nrjhub.companion.android"
         minSdk = libs.versions.androidSdk.min.get().toInt()
         targetSdk = libs.versions.androidSdk.target.get().toInt()
 
